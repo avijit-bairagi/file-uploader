@@ -37,3 +37,4 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+https://www.baeldung.com/spring-boot-scheduled-websocket

@@ -22,10 +22,16 @@ public class FileEntity {
     @Lob
     private byte[] imageData;
 
+    @Lob
+    private byte[] thumbnailData;
+
     public FileEntity(String fileName, String contentType, byte[] imageData) {
 
         this.fileName = fileName;
         this.fileType = contentType;
         this.imageData = imageData;
+    }
+
+    public FileEntity() {
     }
 }

@@ -9,6 +9,13 @@ spring:
       ddl-auto: update
     properties.hibernate.globally_quoted_identifiers: true
     properties.hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: rabbitmq
+    password: rabbitmq
+    virtual-host: /
+
 
 spring.servlet.multipart.max-file-size: 2MB
 spring.servlet.multipart.max-request-size: 2MB
